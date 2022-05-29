@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Furniture_ShopModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ORDERS">
+    <Key>
+      <PropertyRef Name="order_id" />
+    </Key>
+    <Property Name="order_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_of_ordered_product" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="price_of_ordered_product" Type="money" Nullable="false" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PRODUCT">
+    <Key>
+      <PropertyRef Name="id_product" />
+    </Key>
+    <Property Name="id_product" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="product_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="price" Type="money" Nullable="false" />
+    <Property Name="amount" Type="int" Nullable="false" />
+    <Property Name="color" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="product_description" Type="nvarchar" MaxLength="400" Nullable="false" />
+    <Property Name="photo_1" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="photo_2" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="photo_3" Type="nvarchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USERS">
+    <Key>
+      <PropertyRef Name="id_user" />
+    </Key>
+    <Property Name="id_user" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_login" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="user_password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="user_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="user_surname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="user_patronomic" Type="nvarchar" MaxLength="50" />
+    <Property Name="user_adress" Type="nvarchar" MaxLength="100" />
+    <Property Name="user_date_of_birth" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Хранилище Furniture_ShopModelContainer">
+    <EntitySet Name="ORDERS" EntityType="Self.ORDERS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PRODUCT" EntityType="Self.PRODUCT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USERS" EntityType="Self.USERS" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

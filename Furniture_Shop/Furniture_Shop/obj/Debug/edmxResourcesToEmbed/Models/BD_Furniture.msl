@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Shop_NewModelContainer" CdmEntityContainer="Shop_NewEntities">
+    <EntitySetMapping Name="ORDERS">
+      <EntityTypeMapping TypeName="Shop_NewModel.ORDERS">
+        <MappingFragment StoreEntitySet="ORDERS">
+          <ScalarProperty Name="order_id" ColumnName="order_id" />
+          <ScalarProperty Name="name_of_ordered_product" ColumnName="name_of_ordered_product" />
+          <ScalarProperty Name="price_of_ordered_product" ColumnName="price_of_ordered_product" />
+          <ScalarProperty Name="ordered_person" ColumnName="ordered_person" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUCT">
+      <EntityTypeMapping TypeName="Shop_NewModel.PRODUCT">
+        <MappingFragment StoreEntitySet="PRODUCT">
+          <ScalarProperty Name="id_product" ColumnName="id_product" />
+          <ScalarProperty Name="product_name" ColumnName="product_name" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="color" ColumnName="color" />
+          <ScalarProperty Name="product_description" ColumnName="product_description" />
+          <ScalarProperty Name="photo_1" ColumnName="photo_1" />
+          <ScalarProperty Name="photo_2" ColumnName="photo_2" />
+          <ScalarProperty Name="photo_3" ColumnName="photo_3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USER_">
+      <EntityTypeMapping TypeName="Shop_NewModel.USER_">
+        <MappingFragment StoreEntitySet="USER_">
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="user_login" ColumnName="user_login" />
+          <ScalarProperty Name="user_password" ColumnName="user_password" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+          <ScalarProperty Name="user_surname" ColumnName="user_surname" />
+          <ScalarProperty Name="user_patronomic" ColumnName="user_patronomic" />
+          <ScalarProperty Name="user_adress" ColumnName="user_adress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

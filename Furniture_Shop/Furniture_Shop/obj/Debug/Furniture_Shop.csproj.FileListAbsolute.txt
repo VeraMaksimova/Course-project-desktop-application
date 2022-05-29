@@ -1,0 +1,296 @@
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\Furniture_Shop.exe.config
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\Furniture_Shop.exe
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\Furniture_Shop.pdb
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.dll
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.SqlServer.dll
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.xml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.SqlServer.xml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.AssemblyReference.cache
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.SuggestedBindingRedirects.cache
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\App.g.cs
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop_MarkupCompile.cache
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop_MarkupCompile.lref
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.g.resources
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.Properties.Resources.resources
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.GenerateResource.cache
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.CoreCompileInputs.cache
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.CopyComplete
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.exe
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.pdb
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop_Content.g.cs
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.dll
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.UI.dll
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.pdb
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.UI.pdb
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\Experimental.System.Messaging.dll
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\bin\Debug\Experimental.System.Messaging.xml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification 2.g.cs
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification.g.cs
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_name.g.cs
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\Furniture_Shop.g.cs
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\AdminPage.g.cs
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainPage.g.cs
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainUserPage.g.cs
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\PageRegistartionSuccsess.g.cs
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\Page_Registaration1.g.cs
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\DialogWindow.g.cs
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification 2.baml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification.baml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_name.baml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\Furniture_Shop.baml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\AdminPage.baml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainPage.baml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainUserPage.baml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\PageRegistartionSuccsess.baml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\Page_Registaration1.baml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\DialogWindow.baml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\App.baml
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.Fody.CopyLocal.cache
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\UserBasketPage.g.cs
+D:\2 курс 2 сем\КУРСАЧ\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\UserBasketPage.baml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\Furniture_Shop.exe.config
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\Furniture_Shop.exe
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\Furniture_Shop.pdb
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.dll
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.UI.dll
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.dll
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.SqlServer.dll
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\Experimental.System.Messaging.dll
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.pdb
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.UI.pdb
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.xml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.SqlServer.xml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\Experimental.System.Messaging.xml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.AssemblyReference.cache
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.SuggestedBindingRedirects.cache
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification 2.g.cs
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification.g.cs
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_name.g.cs
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\UserBasketPage.g.cs
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\Furniture_Shop.g.cs
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\AdminPage.g.cs
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainPage.g.cs
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainUserPage.g.cs
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\PageRegistartionSuccsess.g.cs
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\Page_Registaration1.g.cs
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\DialogWindow.g.cs
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\App.g.cs
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop_Content.g.cs
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop_MarkupCompile.cache
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop_MarkupCompile.lref
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\App.baml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification 2.baml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification.baml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_name.baml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\UserBasketPage.baml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\Furniture_Shop.baml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\AdminPage.baml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainPage.baml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainUserPage.baml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\PageRegistartionSuccsess.baml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\Page_Registaration1.baml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\DialogWindow.baml
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.g.resources
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.Properties.Resources.resources
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.GenerateResource.cache
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.CoreCompileInputs.cache
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.Fody.CopyLocal.cache
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.CopyComplete
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.exe
+D:\2 курс 2 сем\Reservd Cop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.pdb
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\Furniture_Shop.exe.config
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\Furniture_Shop.exe
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\Furniture_Shop.pdb
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.dll
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.UI.dll
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.dll
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.SqlServer.dll
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\Experimental.System.Messaging.dll
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.pdb
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.UI.pdb
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.xml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.SqlServer.xml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\Experimental.System.Messaging.xml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.AssemblyReference.cache
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.SuggestedBindingRedirects.cache
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_name.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\UserBasketPage.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\Furniture_Shop.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\AdminPage.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainPage.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainUserPage.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\PageRegistartionSuccsess.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\Page_Registaration1.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\DialogWindow.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\App.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop_Content.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop_MarkupCompile.cache
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop_MarkupCompile.lref
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\App.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_name.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\UserBasketPage.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\Furniture_Shop.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\AdminPage.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainPage.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainUserPage.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\PageRegistartionSuccsess.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\Page_Registaration1.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\DialogWindow.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.g.resources
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.Properties.Resources.resources
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.GenerateResource.cache
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.CoreCompileInputs.cache
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.Fody.CopyLocal.cache
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.CopyComplete
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.exe
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.pdb
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_UserExist.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_UserExist.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\InCorrectAge.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\IncorrectPassword.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\IncorrectText.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\NotificationSearch.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\User18.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\InCorrectAge.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\IncorrectPassword.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\IncorrectText.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\NotificationSearch.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\User18.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\FieldEmpty.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\FieldEmpty.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_Length.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_Length.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Age.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Age.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\UnCorrectAge.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\UnCorrectAge.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Password_Length.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Password_Length.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Length_Adress.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Length_Adress.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\AdminPageOrders.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\Admin_Users.g.cs
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\AdminPageOrders.baml
+D:\2 курс 2 сем\Course_Project_Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\Admin_Users.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.AssemblyReference.cache
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.SuggestedBindingRedirects.cache
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Age.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\FieldEmpty.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\InCorrectAge.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\IncorrectPassword.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\IncorrectText.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Length_Adress.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\NotificationSearch.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_Length.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_name.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_UserExist.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Password_Length.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\UnCorrectAge.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\User18.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\AdminPageOrders.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\Admin_Users.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\UserBasketPage.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\Furniture_Shop.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\AdminPage.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainPage.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainUserPage.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\PageRegistartionSuccsess.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\Page_Registaration1.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\DialogWindow.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\App.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop_Content.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop_MarkupCompile.cache
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop_MarkupCompile.lref
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.exe
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.pdb
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\Furniture_Shop.exe.config
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\Furniture_Shop.exe
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\Furniture_Shop.pdb
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.dll
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.UI.dll
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.dll
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.SqlServer.dll
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\Experimental.System.Messaging.dll
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.pdb
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\DevExpress.Mvvm.UI.pdb
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.xml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\EntityFramework.SqlServer.xml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\Experimental.System.Messaging.xml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\App.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Age.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\FieldEmpty.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\InCorrectAge.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\IncorrectPassword.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\IncorrectText.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Length_Adress.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\NotificationSearch.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_Length.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_name.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Notification_UserExist.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\Password_Length.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\UnCorrectAge.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Services\User18.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\AdminPageOrders.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\Admin_Users.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\UserBasketPage.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\Furniture_Shop.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\AdminPage.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainPage.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\MainUserPage.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\PageRegistartionSuccsess.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Pages\Page_Registaration1.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Views\Windows\DialogWindow.baml
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.g.resources
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.Properties.Resources.resources
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.GenerateResource.cache
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.CoreCompileInputs.cache
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.Fody.CopyLocal.cache
+D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\Furniture_Shop.csproj.CopyComplete
