@@ -186,6 +186,8 @@
     <Compile Include="Services\User18.xaml.cs">
       <DependentUpon>User18.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\AdminOrdersViewModel.cs" />
+    <Compile Include="ViewModels\AdminUsersViewModel.cs" />
     <Compile Include="ViewModels\AdminViewModel.cs" />
     <Compile Include="ViewModels\IProduct.cs" />
     <Compile Include="ViewModels\ViewModelLocator.cs" />

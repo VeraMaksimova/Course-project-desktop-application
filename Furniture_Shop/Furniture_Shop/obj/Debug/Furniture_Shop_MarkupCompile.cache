@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\obj\Debug\
+D:\2 курс 2 сем\Furniture_Shop\Furniture_Shop\Furniture_Shop\obj\Debug\
 Furniture_Shop
 none
 false
 DEBUG;TRACE
-D:\2 курс 2 сем\Говно которое надо испарвить\Furniture_Shop\Furniture_Shop\App.xaml
+D:\2 курс 2 сем\Furniture_Shop\Furniture_Shop\Furniture_Shop\App.xaml
 24-847159402
 2-1223955081
-52-310443386
-281168524497
+54-1471735071
+28-1868452692
 Services\Age.xaml;Services\FieldEmpty.xaml;Services\InCorrectAge.xaml;Services\IncorrectPassword.xaml;Services\IncorrectText.xaml;Services\Length_Adress.xaml;Services\Notification.xaml;Services\NotificationSearch.xaml;Services\Notification_Length.xaml;Services\Notification_name.xaml;Services\Notification_UserExist.xaml;Services\Password_Length.xaml;Services\UnCorrectAge.xaml;Services\User18.xaml;Views\Pages\AdminPageOrders.xaml;Views\Pages\Admin_Users.xaml;Views\Pages\UserBasketPage.xaml;Views\Windows\Furniture_Shop.xaml;Views\Pages\AdminPage.xaml;Views\Pages\MainPage.xaml;Views\Pages\MainUserPage.xaml;Views\Pages\PageRegistartionSuccsess.xaml;Views\Pages\Page_Registaration1.xaml;Views\Windows\DialogWindow.xaml;
 
 False

@@ -10,8 +10,8 @@
       DataContext="{Binding AdminViewModel , Source={StaticResource ViewModelLocator}}">
 
     <Grid>
-        <Button Content="заказчики" HorizontalAlignment="Left" Margin="75,60,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="20" Foreground="#FF444444" BorderBrush="White" Background="White"/>
-        <Button Content="пользователи" HorizontalAlignment="Left" Margin="230,60,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="20" Foreground="#FF444444" BorderBrush="White" Background="White"/>
+        <Button Command="{Binding Change_Delegate}" Content="заказчики" HorizontalAlignment="Left" Margin="75,60,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="20" Foreground="#FF444444" BorderBrush="White" Background="White"/>
+        <Button Command="{Binding Change_Users}"  Content="пользователи" HorizontalAlignment="Left" Margin="230,60,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="20" Foreground="#FF444444" BorderBrush="White" Background="White"/>
         <Label Content="ТОВАРЫ" HorizontalAlignment="Left" Margin="60,175,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Montserrat" Foreground="#FF444444"/>
 
         <Button Command="{Binding Exit_Delegate}" Content="выход" HorizontalAlignment="Left" Margin="1738,46,0,0" VerticalAlignment="Top" FontSize="22" Foreground="#FF444444" FontFamily="Montserrat" BorderThickness="0,0,0,0" BorderBrush="White" Background="White"/>

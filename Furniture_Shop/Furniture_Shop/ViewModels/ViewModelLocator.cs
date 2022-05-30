@@ -20,7 +20,8 @@ namespace Furniture_Shop
             services.AddScoped<SuccsessPageViewModel>();
             services.AddScoped<UserMainPageViewModel>();
             services.AddScoped<AdminViewModel>();
-
+            services.AddScoped<AdminOrdersViewModel>();
+            services.AddScoped<AdminUsersViewModel>();
 
             services.AddSingleton<PageService>();
             services.AddSingleton<EventBus>();
@@ -28,7 +29,8 @@ namespace Furniture_Shop
             services.AddSingleton<SuccsessPageViewModel>();
             services.AddSingleton<UserMainPageViewModel>();
             services.AddSingleton<AdminViewModel>();
-
+            services.AddSingleton<AdminOrdersViewModel>();
+            services.AddSingleton<AdminUsersViewModel>();
 
             _provider = services.BuildServiceProvider();
 
@@ -37,7 +39,8 @@ namespace Furniture_Shop
                 _provider.GetRequiredService(item.ServiceType);
             }
         }
-
+        public AdminUsersViewModel AdminUsersViewModel => _provider.GetRequiredService<AdminUsersViewModel>();
+        public AdminOrdersViewModel AdminOrdersViewModel => _provider.GetRequiredService<AdminOrdersViewModel>();
         public AdminViewModel AdminViewModel => _provider.GetRequiredService<AdminViewModel>();
         public MainViewModel MainViewModel => _provider.GetRequiredService<MainViewModel>();
         public LogPageViewModel LogPageViewModel => _provider.GetRequiredService<LogPageViewModel>();

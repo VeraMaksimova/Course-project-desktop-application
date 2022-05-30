@@ -6,20 +6,96 @@
 //     Изменения, вносимые в этот файл вручную, будут перезаписаны при повторном создании кода.
 // </auto-generated>
 //------------------------------------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+
 
 namespace Furniture_Shop.Models
 {
-    using System;
-    using System.Collections.Generic;
+  
     
-    public partial class USER_
+    public partial class USER_ : INotifyPropertyChanged
     {
-        public int id_user { get; set; }
-        public string user_login { get; set; }
-        public string user_password { get; set; }
-        public string user_name { get; set; }
-        public string user_surname { get; set; }
-        public string user_patronomic { get; set; }
-        public string user_adress { get; set; }
+        private int id_user1;
+        private string user_login1;
+        private string user_password1;
+        private string user_name1;
+        private string user_surname1;
+        private string user_patronomic1;
+        private string user_adress1;
+
+
+
+
+
+
+
+
+        public int id_user
+        {
+            get => id_user1; set
+            {
+                id_user1 = value;
+                OnPropertyChanged(nameof(id_user));
+            }
+        }
+    
+        public string user_login
+        {
+            get => user_login1; set
+            {
+                user_login1 = value;
+                OnPropertyChanged(nameof(user_login));
+            }
+        }
+        public string user_password
+        {
+            get => user_password1; set
+            {
+                user_password1 = value;
+                OnPropertyChanged(nameof(user_password));
+            }
+        }
+        public string user_name
+        {
+            get => user_name1; set
+            {
+                user_name1 = value;
+                OnPropertyChanged(nameof(user_name));
+            }
+        }
+        public string user_surname
+        {
+            get => user_surname1; set
+            {
+                user_surname1 = value;
+                OnPropertyChanged(nameof(user_surname));
+            }
+        }
+        public string user_patronomic {
+            get => user_patronomic1; set
+            {
+                user_patronomic1 = value;
+                OnPropertyChanged(nameof(user_patronomic));
+            }
+        }
+        public string user_adress
+        {
+            get => user_adress1; set
+            {
+                user_adress1 = value;
+                OnPropertyChanged(nameof(user_adress));
+            }
+        }
+
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 }

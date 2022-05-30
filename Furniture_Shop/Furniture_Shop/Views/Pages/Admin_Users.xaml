@@ -4,17 +4,162 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Furniture_Shop.Views.Pages"
+
       mc:Ignorable="d" 
       d:DesignHeight="1080" d:DesignWidth="1920"
-      Title="Admin_Users" Background="white">
+      Title="Admin_Users" Background="white"
+      DataContext="{Binding AdminUsersViewModel , Source={StaticResource ViewModelLocator}}">
 
     <Grid>
-        <Button Content="выход" HorizontalAlignment="Left" Margin="1738,46,0,0" VerticalAlignment="Top" FontSize="22" Foreground="#FF444444" FontFamily="Montserrat" BorderThickness="0,0,0,0" BorderBrush="White" Background="White"/>
+        <Button Command="{Binding Exit_Delegate}"  Content="выход" HorizontalAlignment="Left" Margin="1738,46,0,0" VerticalAlignment="Top" FontSize="22" Foreground="#FF444444" FontFamily="Montserrat" BorderThickness="0,0,0,0" BorderBrush="White" Background="White"/>
         <Label Content="Furniture Shop" HorizontalAlignment="Center" Margin="0,29,0,0" VerticalAlignment="Top" FontFamily="Mr Bedfort" FontSize="72" Foreground="#FF00969F"/>
         <Label Content="admin page" HorizontalAlignment="Center" Margin="0,140,0,0" VerticalAlignment="Top" FontFamily="Mr Bedfort" FontSize="36" Foreground="#FF444444"/>
-        <Button Content="заказчики" HorizontalAlignment="Left" Margin="75,60,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="20" Foreground="#FF444444" BorderBrush="White" Background="White"/>
-        <Button Content="товары" HorizontalAlignment="Left" Margin="230,60,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="20" Foreground="#FF444444" BorderBrush="White" Background="White"/>
+        <Button  Command="{Binding Nav_To_ORDERS}"  Content="заказчики" HorizontalAlignment="Left" Margin="75,60,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="20" Foreground="#FF444444" BorderBrush="White" Background="White"/>
+        <Button Command="{Binding  Nav_To_PRODUCT}" Content="товары" HorizontalAlignment="Left" Margin="230,60,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="20" Foreground="#FF444444" BorderBrush="White" Background="White"/>
         <Label Content="ПОЛЬЗОВАТЕЛИ" HorizontalAlignment="Left" Margin="60,175,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Montserrat" Foreground="#FF444444"/>
+        <ListView Margin="75,250,80,595" ItemsSource="{Binding  LstUsers}" SelectedItem="{Binding SelectedUser}" Foreground="#FF444444" FontFamily="Montserrat" BorderBrush="#FF444444" BorderThickness="0,0,0,0"  >
+            <ListBox.ItemContainerStyle>
+                <Style>
 
+                    <Setter Property="ListBoxItem.Background" Value="White"/>
+                    <Setter Property="ListBoxItem.Margin" Value="2"/>
+                    <Setter Property="ListBoxItem.Padding" Value="10"/>
+                </Style>
+            </ListBox.ItemContainerStyle>
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns >
+                        <GridViewColumn  Header="Id" DisplayMemberBinding="{Binding id_user }" />
+                        <GridViewColumn  Header="Login" DisplayMemberBinding="{Binding user_login}"/>
+                        <GridViewColumn  Header="Password" DisplayMemberBinding="{Binding user_password }"/>
+                        <GridViewColumn Header="Name" DisplayMemberBinding="{Binding user_name }"/>
+                        <GridViewColumn Header="Surname" DisplayMemberBinding="{Binding user_surname }"/>
+                        <GridViewColumn Header="Patronomic" DisplayMemberBinding="{Binding user_patronomic }"/>
+                        <GridViewColumn Header="Adress" DisplayMemberBinding="{Binding user_adress }"/>
+                        <GridViewColumn Header="Action" >
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel>
+                                        <Button Foreground="#FF444444" BorderBrush="White" FontFamily="Montserrat" Background="white" Name="BtnUpdate" Content="Update" Command="{Binding DataContext.UpdateCommand, 
+                                            RelativeSource={RelativeSource AncestorType={x:Type ListView}} }" CommandParameter="{Binding }"/>
+
+                                        <Button Name="BtnDelete" Foreground="#FF444444" BorderBrush="White"  FontFamily="Montserrat" Background="white"   Content="Delete" Command="{Binding DataContext.DeleteCommand, 
+                                            RelativeSource={RelativeSource AncestorType={x:Type ListView}} }" CommandParameter="{Binding }"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Grid   Margin="160,515,1250,65" Height="500" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" BorderBrush="#FF444444" BorderThickness="2,2,2,2" Margin="-80,5,-240,5" Grid.ColumnSpan="2" CornerRadius="20,20,20,20">
+                <StackPanel  Margin="0,9,-2,9" HorizontalAlignment="Right" Width="815">
+                    <Label Content="Update" HorizontalAlignment="Center" FontFamily="Montserrat" Foreground="#FF444444" FontSize="18" />
+                    <Grid Margin="5" Height="417" Width="651">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="61*"/>
+                            <ColumnDefinition Width="156*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Label Height="40" Grid.Row="0" Grid.Column="0" Content="Login" FontFamily="Montserrat" Foreground="#FF444444" FontSize="14" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="10,0,10,0"/>
+                        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding SelectedUser.user_login}" BorderBrush="White" FontFamily="Montserrat" Foreground="#FF444444" FontSize="14" TextAlignment="Left" TextWrapping="Wrap" Margin="0,10,0,3"/>
+
+                        <Label Grid.Row="1" Width="100" Height="40"  FontFamily="Montserrat" Foreground="#FF444444"  FontSize="14" Content="Password" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                        <TextBox  Foreground="#FF444444" FontSize="14" FontFamily="Montserrat" Grid.Row="1" Grid.Column="1" Text="{Binding   SelectedUser.user_password}" Margin="0,10,0,0" BorderBrush="White"/>
+
+                        <Label Grid.Row="1" Grid.Column="0" Content="Name" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF444444" FontFamily="Montserrat" FontSize="14" Margin="0,48,0,0" Grid.RowSpan="2"/>
+                        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding   SelectedUser.user_name}" Margin="0,10,0,47" Grid.RowSpan="2" FontSize="14" FontFamily="Montserrat" Foreground="#FF444444" BorderBrush="White"/>
+
+                        <Label Grid.Row="2" Grid.Column="0" Content="Surname" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF444444" FontFamily="Montserrat" FontSize="14" Margin="0,48,0,0" Grid.RowSpan="2"/>
+                        <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding   SelectedUser.user_surname}" Margin="0,10,0,47" Grid.RowSpan="2" FontSize="14" FontFamily="Montserrat" Foreground="#FF444444" BorderBrush="White"/>
+
+                        <Label Grid.Row="3" Grid.Column="0" Content="Patronomic" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF444444" FontFamily="Montserrat" FontSize="14" Margin="0,48,0,48" Grid.RowSpan="3"/>
+                        <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding   SelectedUser.user_patronomic}" Margin="0,10,0,47" Grid.RowSpan="2" FontSize="14" FontFamily="Montserrat" Foreground="#FF444444" BorderBrush="White"/>
+
+                        <Label Grid.Row="5" Grid.Column="0" Content="Adress" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF444444" FontFamily="Montserrat" FontSize="14" Margin="0,0,0,48" Grid.RowSpan="2"/>
+                        <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding  SelectedUser.user_adress}" Margin="0,10,0,47" Grid.RowSpan="2" FontSize="14" FontFamily="Montserrat" Foreground="#FF444444" BorderBrush="White"/>
+
+
+
+
+                        <Button   Grid.Row="8" Grid.Column="1" Command="{Binding UpdateUser}" FontFamily="Montserrat" FontSize="16" Foreground="#FF444444" BorderBrush="#FF00969F" Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="98" Height="31">Update</Button>
+                    </Grid>
+                </StackPanel>
+
+            </Border>
+        </Grid>
+
+
+        <Grid   Margin="1015,515,200,65" Height="500" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" BorderBrush="#FF444444" BorderThickness="2,2,2,2" Margin="-45,5,-115,5" Grid.ColumnSpan="2" CornerRadius="20,20,20,20">
+                <StackPanel  Margin="8,9,8,9">
+                    <Label Content="Add" HorizontalAlignment="Center" FontFamily="Montserrat" Foreground="#FF444444" FontSize="18" />
+                    <Grid Margin="5" Height="418" Width="752">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Label Height="40" Grid.Row="0" Grid.Column="0" Content="Login" FontFamily="Montserrat" Foreground="#FF444444" FontSize="14" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="10,0,10,0"/>
+                        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding  UserDetail.user_login}" BorderBrush="White" FontFamily="Montserrat" Foreground="#FF444444" FontSize="14" TextAlignment="Left" TextWrapping="Wrap" Margin="0,10,0,3"/>
+
+                        <Label Grid.Row="1" Width="356" Height="40"  FontFamily="Montserrat" Foreground="#FF444444"  FontSize="14" Grid.Column="0" Content="Password" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+                        <TextBox  Foreground="#FF444444" FontSize="14" FontFamily="Montserrat" Grid.Row="1" Grid.Column="1" Text="{Binding    UserDetail.user_password}" Margin="0,10,0,0" BorderBrush="White"/>
+
+                        <Label Grid.Row="2" Grid.Column="0" Content="Name" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Foreground="#FF444444" FontFamily="Montserrat" FontSize="14" HorizontalAlignment="Left" Width="366" Margin="10,0,0,0"/>
+                        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding   UserDetail.user_name}" Margin="0,10,0,47" Grid.RowSpan="2" FontSize="14" FontFamily="Montserrat" Foreground="#FF444444" BorderBrush="White"/>
+
+                        <Label Grid.Row="2" Grid.Column="0" Content="Surnamr" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Foreground="#FF444444" FontFamily="Montserrat" FontSize="14" HorizontalAlignment="Left" Margin="10,46,0,46" Grid.RowSpan="3" Width="366"/>
+                        <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding    UserDetail.user_surname}" Margin="0,10,0,47" Grid.RowSpan="2" FontSize="14" FontFamily="Montserrat" Foreground="#FF444444" BorderBrush="White"/>
+
+                        <Label Grid.Row="4" Grid.Column="0" Content="Patronomic" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Foreground="#FF444444" FontFamily="Montserrat" FontSize="14" Margin="10,0,0,0"/>
+                        <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding  UserDetail.user_patronomic}" Margin="0,10,0,47" Grid.RowSpan="2" FontSize="14" FontFamily="Montserrat" Foreground="#FF444444" BorderBrush="White"/>
+
+                        <Label Grid.Row="4" Grid.Column="0" Content="Adress" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Foreground="#FF444444" FontFamily="Montserrat" FontSize="14" Margin="10,46,0,46" Grid.RowSpan="3"/>
+                        <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding   UserDetail.user_adress}" Margin="0,10,0,47" Grid.RowSpan="2" FontSize="14" FontFamily="Montserrat" Foreground="#FF444444" BorderBrush="White"/>
+
+
+
+
+                        <Button   Grid.Row="8" Grid.Column="1" Command="{Binding  AddUserCommand}" FontFamily="Montserrat" FontSize="16" Foreground="#FF444444" BorderBrush="#FF00969F" Background="White" Margin="117,10,117,0" Content="Add"/>
+                    </Grid>
+                </StackPanel>
+
+            </Border>
+        </Grid>
     </Grid>
 </Page>

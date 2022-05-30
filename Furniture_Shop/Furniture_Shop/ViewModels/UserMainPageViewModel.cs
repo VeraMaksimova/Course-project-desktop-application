@@ -41,7 +41,7 @@ namespace Furniture_Shop.ViewModels
             {
                 if (conn == null)
                 {
-                    throw new Exception("Connection String is Null. Set the value of Connection String in MovieCatalog->Properties-?Settings.settings");
+                    throw new Exception("Error");
                 }
                 else
                 {

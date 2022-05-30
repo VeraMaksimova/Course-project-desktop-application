@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using Furniture_Shop.ViewModels;
 namespace Furniture_Shop.Views.Pages
 {
     /// <summary>
@@ -23,6 +23,7 @@ namespace Furniture_Shop.Views.Pages
         public AdminPageOrders()
         {
             InitializeComponent();
+            //DataContext = AdminOrdersViewModel();
         }
     }
 }

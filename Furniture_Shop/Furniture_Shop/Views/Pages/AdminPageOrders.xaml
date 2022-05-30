@@ -4,17 +4,148 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Furniture_Shop.Views.Pages"
+      xmlns:local1="clr-namespace:Furniture_Shop.ViewModels" d:DataContext="{d:DesignInstance Type=local1:AdminOrdersViewModel}"
       mc:Ignorable="d" 
       d:DesignHeight="1080" d:DesignWidth="1920"
-      Title="AdminPageOrders" Background="White">
+      Title="AdminPageOrders" Background="White"
+       DataContext="{Binding AdminOrdersViewModel  , Source={StaticResource ViewModelLocator}}">
 
     <Grid>
-        <Button Content="выход" HorizontalAlignment="Left" Margin="1738,46,0,0" VerticalAlignment="Top" FontSize="22" Foreground="#FF444444" FontFamily="Montserrat" BorderThickness="0,0,0,0" BorderBrush="White" Background="White"/>
+        <Button Command="{Binding Exit_Delegate}"  Content="выход" HorizontalAlignment="Left" Margin="1738,46,0,0" VerticalAlignment="Top" FontSize="22" Foreground="#FF444444" FontFamily="Montserrat" BorderThickness="0,0,0,0" BorderBrush="White" Background="White"/>
         <Label Content="Furniture Shop" HorizontalAlignment="Center" Margin="0,29,0,0" VerticalAlignment="Top" FontFamily="Mr Bedfort" FontSize="72" Foreground="#FF00969F"/>
         <Label Content="admin page" HorizontalAlignment="Center" Margin="0,140,0,0" VerticalAlignment="Top" FontFamily="Mr Bedfort" FontSize="36" Foreground="#FF444444"/>
-        <Button Content="товары" HorizontalAlignment="Left" Margin="75,60,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="20" Foreground="#FF444444" BorderBrush="White" Background="White"/>
-        <Button Content="пользователи" HorizontalAlignment="Left" Margin="230,60,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="20" Foreground="#FF444444" BorderBrush="White" Background="White"/>
+        <Button Command="{Binding Nav_To_PRODUCT}" Content="товары" HorizontalAlignment="Left" Margin="75,60,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="20" Foreground="#FF444444" BorderBrush="White" Background="White"/>
+        <Button Command="{Binding  Nav_To_USER}" Content="пользователи" HorizontalAlignment="Left" Margin="230,60,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="20" Foreground="#FF444444" BorderBrush="White" Background="White"/>
         <Label Content="ЗАКАЗЧИКИ" HorizontalAlignment="Left" Margin="60,175,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Montserrat" Foreground="#FF444444"/>
+        <ListView Margin="75,250,80,595" ItemsSource="{Binding LstOrders}" SelectedItem="{Binding SelectedOrder}" Foreground="#FF444444" FontFamily="Montserrat" BorderBrush="#FF444444" BorderThickness="0,0,0,0"  >
+            <ListBox.ItemContainerStyle>
+                <Style>
 
+                    <Setter Property="ListBoxItem.Background" Value="White"/>
+                    <Setter Property="ListBoxItem.Margin" Value="2"/>
+                    <Setter Property="ListBoxItem.Padding" Value="10"/>
+                </Style>
+            </ListBox.ItemContainerStyle>
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns >
+                        <GridViewColumn  Header="Id" DisplayMemberBinding="{Binding order_id}" />
+                        <GridViewColumn  Header="Product" DisplayMemberBinding="{Binding name_of_ordered_product}"/>
+                        <GridViewColumn  Header="Price" DisplayMemberBinding="{Binding price_of_ordered_product }"/>
+                        <GridViewColumn Header="Ordered_Person" DisplayMemberBinding="{Binding ordered_person }"/>
+                        <GridViewColumn Header="Status" DisplayMemberBinding="{Binding status }"/>
+                        
+                        <GridViewColumn Header="Action" >
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel>
+                                        <Button Foreground="#FF444444" BorderBrush="White" FontFamily="Montserrat" Background="white" Name="BtnUpdate" Content="Update" Command="{Binding DataContext.UpdateCommand, 
+                                            RelativeSource={RelativeSource AncestorType={x:Type ListView}} }" CommandParameter="{Binding }"/>
+
+                                        <Button Name="BtnDelete" Foreground="#FF444444" BorderBrush="White"  FontFamily="Montserrat" Background="white"   Content="Delete" Command="{Binding DataContext.DeleteCommand, 
+                                            RelativeSource={RelativeSource AncestorType={x:Type ListView}} }" CommandParameter="{Binding }"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Grid   Margin="160,515,1250,65" Height="500" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" BorderBrush="#FF444444" BorderThickness="2,2,2,2" Margin="-80,5,-240,5" Grid.ColumnSpan="2" CornerRadius="20,20,20,20">
+                <StackPanel  Margin="0,9,-2,9" HorizontalAlignment="Right" Width="815">
+                    <Label Content="Update" HorizontalAlignment="Center" FontFamily="Montserrat" Foreground="#FF444444" FontSize="18" />
+                    <Grid Margin="5" Height="417" Width="651">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="61*"/>
+                            <ColumnDefinition Width="156*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Label Height="40" Grid.Row="0" Grid.Column="0" Content="Product" FontFamily="Montserrat" Foreground="#FF444444" FontSize="14" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="10,0,10,0"/>
+                        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding SelectedOrder.name_of_ordered_product}" BorderBrush="White" FontFamily="Montserrat" Foreground="#FF444444" FontSize="14" TextAlignment="Left" TextWrapping="Wrap" Margin="0,10,0,3"/>
+
+                        <Label Grid.Row="1" Width="100" Height="40"  FontFamily="Montserrat" Foreground="#FF444444"  FontSize="14" Content="Price" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                        <TextBox  Foreground="#FF444444" FontSize="14" FontFamily="Montserrat" Grid.Row="1" Grid.Column="1" Text="{Binding    SelectedOrder.price_of_ordered_product}" Margin="0,10,0,0" BorderBrush="White"/>
+
+                        <Label Grid.Row="1" Grid.Column="0" Content="Person" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF444444" FontFamily="Montserrat" FontSize="14" Margin="0,48,0,0" Grid.RowSpan="2"/>
+                        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding    SelectedOrder.ordered_person}" Margin="0,10,0,47" Grid.RowSpan="2" FontSize="14" FontFamily="Montserrat" Foreground="#FF444444" BorderBrush="White"/>
+
+                        <Label Grid.Row="2" Grid.Column="0" Content="Color" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF444444" FontFamily="Montserrat" FontSize="14" Margin="0,48,0,0" Grid.RowSpan="2"/>
+                        <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding   SelectedOrder.status}" Margin="0,10,0,47" Grid.RowSpan="2" FontSize="14" FontFamily="Montserrat" Foreground="#FF444444" BorderBrush="White"/>
+
+
+
+                        <Button   Grid.Row="8" Grid.Column="1" Command="{Binding UpdateOrder }" FontFamily="Montserrat" FontSize="16" Foreground="#FF444444" BorderBrush="#FF00969F" Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Width="98" Height="31">Update</Button>
+                    </Grid>
+                </StackPanel>
+
+            </Border>
+        </Grid>
+
+
+        <Grid   Margin="1015,515,200,65" Height="500" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" BorderBrush="#FF444444" BorderThickness="2,2,2,2" Margin="-45,5,-115,5" Grid.ColumnSpan="2" CornerRadius="20,20,20,20">
+                <StackPanel  Margin="8,9,8,9">
+                    <Label Content="Add" HorizontalAlignment="Center" FontFamily="Montserrat" Foreground="#FF444444" FontSize="18" />
+                    <Grid Margin="5" Height="418" Width="752">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Label Height="40" Grid.Row="0" Grid.Column="0" Content="Product" FontFamily="Montserrat" Foreground="#FF444444" FontSize="14" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="10,0,10,0"/>
+                        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding OrderDetail.name_of_ordered_product}" BorderBrush="White" FontFamily="Montserrat" Foreground="#FF444444" FontSize="14" TextAlignment="Left" TextWrapping="Wrap" Margin="0,10,0,3"/>
+
+                        <Label Grid.Row="1" Width="356" Height="40"  FontFamily="Montserrat" Foreground="#FF444444"  FontSize="14" Grid.Column="0" Content="Price" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+                        <TextBox  Foreground="#FF444444" FontSize="14" FontFamily="Montserrat" Grid.Row="1" Grid.Column="1" Text="{Binding   OrderDetail.price_of_ordered_product}" Margin="0,10,0,0" BorderBrush="White"/>
+
+                        <Label Grid.Row="2" Grid.Column="0" Content="Person" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Foreground="#FF444444" FontFamily="Montserrat" FontSize="14" HorizontalAlignment="Left" Width="366" Margin="10,0,0,0"/>
+                        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding  OrderDetail.ordered_person}" Margin="0,10,0,47" Grid.RowSpan="2" FontSize="14" FontFamily="Montserrat" Foreground="#FF444444" BorderBrush="White"/>
+
+                        <Label Grid.Row="2" Grid.Column="0" Content="Status" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Foreground="#FF444444" FontFamily="Montserrat" FontSize="14" HorizontalAlignment="Left" Margin="10,46,0,46" Grid.RowSpan="3" Width="366"/>
+                        <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding   OrderDetail.status}" Margin="0,10,0,47" Grid.RowSpan="2" FontSize="14" FontFamily="Montserrat" Foreground="#FF444444" BorderBrush="White"/>
+
+
+
+
+                        <Button   Grid.Row="8" Grid.Column="1" Command="{Binding AddOrderCommand }" FontFamily="Montserrat" FontSize="16" Foreground="#FF444444" BorderBrush="#FF00969F" Background="White" Margin="117,10,117,0" Content="Add"/>
+                    </Grid>
+                </StackPanel>
+
+            </Border>
+        </Grid>
     </Grid>
 </Page>

@@ -101,6 +101,10 @@ namespace Furniture_Shop.ViewModels
             _pageService.ChangePage(new Page1());
 
         }
+        private void LoadBD_Furniture()// Read
+        {
+            Lstproduct = new ObservableCollection<PRODUCT>((IEnumerable<PRODUCT>)bD_Furniture.PRODUCT);
+        }
 
         #region Навигация
         private DelegateCommand _exit;
@@ -112,6 +116,32 @@ namespace Furniture_Shop.ViewModels
         {
             
                 _pageService.ChangePage(new Page1());
+
+        }
+
+        //Orders
+        private DelegateCommand _ChangeToOrders;
+
+        public DelegateCommand Change_Delegate =>
+           _ChangeToOrders ?? (_showDialog = new DelegateCommand(Change_To_Orders));
+
+        void Change_To_Orders()
+        {
+
+            _pageService.ChangePage(new AdminPageOrders());
+
+        }
+
+        //users
+        private DelegateCommand _ChangeToUsers;
+
+        public DelegateCommand Change_Users =>
+            _ChangeToUsers ?? (_showDialog = new DelegateCommand(Change_To_Users));
+
+        void Change_To_Users()
+        {
+
+            _pageService.ChangePage(new Admin_Users());
 
         }
         #endregion
@@ -178,10 +208,7 @@ namespace Furniture_Shop.ViewModels
         }
     #endregion
 
-        private void LoadBD_Furniture()// Read
-        {
-            Lstproduct = new ObservableCollection<PRODUCT>((IEnumerable<PRODUCT>)bD_Furniture.PRODUCT);
-        }
+       
 
         #region
         public ICommand DeleteCommand { get; set; }
